@@ -1,0 +1,122 @@
+#index_container{
+	background-color: #183757;
+	position:relative;
+	width:900x;
+	height:400px;
+}
+
+/* MAIN COLUMNS*/
+
+#index_container h2{
+	text-align: center;
+}
+
+#main_col_left {
+	float: left;
+	text-align: left;
+	margin-left: 150px;
+	margin-top: 50px;
+	color: white;
+}
+div#index_error{
+	position:absolute;
+	top:25px;
+	left:2em;
+	color:#f37171;
+}
+#main_col_right {
+	float: right;
+	margin-top: 25px;
+	margin-right:230px;
+	text-align: right;
+	color:white;
+}
+
+
+
+/* Quote Columns*/
+#main_col_left_quote {
+	float:left;
+	background-color:white;
+	margin-left: 200px;
+	margin-top: 100px;
+	width:250px;
+	
+}
+
+#main_col_right_quote {
+	float:right;
+	margin-right: 200px;
+	margin-top: 100px;
+	width:250px;
+	background-color:white;
+}
+
+#quote_top_column {
+	position: relative;
+	top: 65px;
+	width:80%;
+	left:110px;
+	z-index:10;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	text-align:center;
+	height: 75px;
+	background-color: white;
+}
+/* END Quote Columns*/
+
+/* Quote Column Texts */
+#quote_text_content{
+	display:inline;
+	color:black;
+	position:relative;
+	overflow:hidden;
+	text-overflow:ellipse;
+	text-align:right;
+	width:auto;
+	border-bottom-style:solid;
+	border-bottom-width: thin;
+}
+#quote_text {
+	font-size: 15px;
+	position:relative;
+	text-align:left;
+	display:inline;
+	width:auto;
+	border-bottom-style:solid;
+	border-bottom-width: thin;
+	padding-right:2em;
+	color:black;
+}
+
+
+div#t_invalid {
+	font-size: 50px;
+	text-align: center;
+	color:red;
+}
+
+#t_symbol {
+	font-size: 50px;
+	display: inline-block;
+	margin-right: .5em
+}
+
+#t_price {
+	font-size: 40px;
+	display: inline-block;
+	margin-right: .5em
+}
+
+#t_percentage {
+	font-size: 30px;
+	display: inline-block;
+	margin-right: .5em
+}
+
+#t_time {
+	font-size: 14px;
+	display: inline-block
+}
+/* END Quote Column Texts */

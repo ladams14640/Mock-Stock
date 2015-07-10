@@ -1,0 +1,26 @@
+#main_col_left_stock{
+	position:relative;
+	text-align: left;
+	color: white;
+	height:100px;
+	max-height:200px;
+	width:500px;'
+}
+
+#main_col_left_stock ul{
+	width: 400px;
+    height: 20em;
+    line-height: 2em;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#stock_container{
+	background-color: #183757;
+	position:relative;
+	top:-40px;
+	width:900x;
+	height:400px;
+}

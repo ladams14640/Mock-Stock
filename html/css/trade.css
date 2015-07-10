@@ -1,0 +1,43 @@
+#trade_container{
+	background-color: #183757;
+	position:relative;
+	height:400px;
+}
+div#trade_main_col_left{
+	float: left;
+	text-align: left;
+	margin-left: 75px;
+	margin-top: 20px;
+	color: white;
+}
+div#trade_main_col_right{
+	float: right;
+	margin-top: 25px;
+	margin-right:150px;
+	text-align: right;
+	color:white;
+}
+select{
+	position:relative;
+	text-align: left;
+	display:inline-block;
+}
+input#quantity{
+	
+}
+
+table#portfolio_table_for_trade{
+	background-color:white;
+	border-collapse: collapse;
+}
+table#portfolio_table_for_trade tr{
+	border-bottom: 1pt solid black;
+}
+table#portfolio_table_for_trade tr td#left_side{
+	text-align:left;
+	color:black;
+}
+table#portfolio_table_for_trade tr td#right_side{
+	text-align:right;
+	color:black;
+}

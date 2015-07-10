@@ -1,0 +1,82 @@
+#home_container {
+	position: relative;
+	width: 900x;
+	background-color: #183757;
+	height: 400px;
+}
+
+#main_col_left_home {
+	float: left;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #FFF;
+}
+
+#main_col_right_home {
+	position:absolute;
+	margin-top: 40px;
+	margin-left:100px;
+	width:700px;
+	text-align: center;
+	color: #FFF;
+}
+
+#clients_home_portfolio_right {
+	position: absolute;
+	top: 80px;
+	text-align: right;
+	color: white;
+}
+
+td#trade_table_shift_right {
+	text-align: right;
+}
+
+table#clients_home_portfolio {
+	width: 800px;
+	border-collapse: collapse;
+	color: black;
+	left: -100px;
+	max-height: 250px;
+	border: 2px;
+	border-radius: 4px;
+	background-color: white
+}
+
+table#clients_home_portfolio tr {
+	border-bottom: 1pt solid black;
+}
+
+table#clients_home_portfolio tr th {
+	background-color: #438bd5;
+	padding-right: 2em;
+	color: white;
+}
+
+table#clients_portfolio_value {
+	width: 800px;
+	background-color: white;
+	padding-right: 2em;
+}
+
+table#clients_home_portfolio tbody#first_tbody {
+	overflow-y: scroll;
+	max-height: 250px;
+	display: block;
+	width: 800px;
+}
+
+table#clients_home_portfolio tbody#second_tbody {
+	width: 800px;
+	overflow: hidden;
+	
+	display: block;
+}
+
+table#clients_portfolio_value tbody#second_tbody tr td {
+	width: 800px;
+	background-color: #438bd5;
+	color: black;
+}
