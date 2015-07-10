@@ -1,4 +1,4 @@
-To use the web Application you need to make an account or login with an existing account, the new account can't already exit.
+To use the web application you need to make an account or login with an existing account, the new account can't already exit.
 Once the Account is made, you will be logged in and awarded $10,000 to start the user's profile.
 Once logged in, the Trade menu is available to the user. This drop down display reveals every stock company in the NASDAQ and its stock
 value. It does this by making an AJAX call and parses the the CSV file from NASDAQ's website that has 
